@@ -42,10 +42,14 @@ header .my-img-responsive {
 
 
 /* MAIN  */
-
+section {
+    padding: 40px 0;
+}
 /* 1* jumbotron  */
 .my-jumbotron {
     background-image: url("img/bg-banner-home.jpg");
+
+    margin-bottom: 0;
 }
 
 .my-form {
@@ -58,6 +62,17 @@ header .my-img-responsive {
 
 .my-form .btn-primary {
     background-color: rgb(103, 152, 248);
+}
+
+/* my-innovative-brands  */
+.my-innovative-brands img{
+    height: 150px;
+
+
+}
+
+.my-innovative-brands .img-responsive {
+
 }
 
 
@@ -124,8 +139,6 @@ header .my-img-responsive {
     .my-jumbotron h1 {
         font-size: 60px;
     }
-
-    
 }
 
 
@@ -143,7 +156,7 @@ header .my-img-responsive {
 }
 
 .bg-grey {
-    background-color: lightgrey;
+    background-color: rgb(243, 245, 249);
 }
 
 
