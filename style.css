@@ -13,6 +13,10 @@ header .my-img-responsive {
     border: none;
 }
 
+.left-nav {
+    margin-left: 100px;
+}
+
 #my-header-btn {
     background-color: white;
     color: teal;
@@ -23,6 +27,32 @@ header .my-img-responsive {
 
     box-shadow: none;
 }
+
+
+/* MAIN  */
+
+/* 1* jumbotron  */
+
+
+
+
+
+
+
+
+/* VISUALIZZAZIONE TABLET  */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    .my-navbar.navbar-default {
+        font-size: 9px;
+    }
+
+    .left-nav {
+        margin-left: auto;
+    }
+}
+
+
 
 
 
