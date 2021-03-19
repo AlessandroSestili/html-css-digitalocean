@@ -3,6 +3,10 @@ header .my-img-responsive {
     max-height: 100%;
 }
 
+.my-navbar.navbar {
+    margin-bottom: 0;
+}
+
 .my-navbar.navbar-default .navbar-nav>li>a{
     color: black;
 }
@@ -19,20 +23,42 @@ header .my-img-responsive {
 
 #my-header-btn {
     background-color: white;
-    color: teal;
+    color: rgb(103, 152, 248);
 
-    border-color: teal;
+    border-color: rgb(103, 152, 248);
     padding: 5px;
     margin-top: 10px;
 
     box-shadow: none;
 }
 
+.my-navbar.navbar-default .navbar-toggle {
+    border: none;
+}
+
+.my-navbar.navbar-default .navbar-toggle span {
+    background-color: rgb(103, 152, 248);
+}
+
 
 /* MAIN  */
 
 /* 1* jumbotron  */
+.my-jumbotron {
+    background-image: url("img/bg-banner-home.jpg");
+}
 
+.my-form {
+    margin: 0px 20px;
+}
+
+.my-form h2 {
+    padding: 30px 30px;
+}
+
+.my-form .btn-primary {
+    background-color: rgb(103, 152, 248);
+}
 
 
 
@@ -43,6 +69,7 @@ header .my-img-responsive {
 /* VISUALIZZAZIONE TABLET  */
 @media screen and (min-width: 768px) and (max-width: 992px) {
 
+    /* HEADER  */
     .my-navbar.navbar-default {
         font-size: 9px;
     }
@@ -50,8 +77,56 @@ header .my-img-responsive {
     .left-nav {
         margin-left: auto;
     }
+
+    #my-header-btn {
+        font-size: 9px;
+    }
+
+    /* MAIN  */
+
+    /* jumbotron form  */
+    .my-jumbotron h1 {
+        font-size: 40px;
+    }
+
+    .my-form {
+        margin: 0;
+    }
 }
 
+
+/* VISUALIZZAZIONE DESKTOP  */
+@media screen and (min-width: 970px) and (max-width: 1170px) {
+
+    /* MAIN  */
+
+    /* jumbotron form  */
+    .my-jumbotron h1 {
+        font-size: 50px;
+    }
+
+    .my-form {
+        margin: 0;
+    }
+}
+
+
+/* VISUALIZZAZIONE LARGE DESKTOP  */
+@media screen and (min-width: 1170px) {
+
+    /* MAIN  */
+
+    /* jumbotron form  */
+    .my-form {
+        margin: 0;
+    }
+
+    .my-jumbotron h1 {
+        font-size: 60px;
+    }
+
+    
+}
 
 
 
@@ -69,5 +144,27 @@ header .my-img-responsive {
 
 .bg-grey {
     background-color: lightgrey;
+}
+
+
+.text-white {
+    color: white;
+}
+
+.bg-blue {
+    background-color: rgb(103, 152, 248);
+}
+
+.text-black {
+    color: black;
+}
+
+.text-blue {
+    color: rgb(103, 152, 248);
+}
+
+
+.border-radius {
+    border-radius: 5px;
 }
 
