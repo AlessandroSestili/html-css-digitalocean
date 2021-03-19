@@ -1,0 +1,43 @@
+/* HEADER  */
+header .my-img-responsive {
+    max-height: 100%;
+}
+
+.my-navbar.navbar-default .navbar-nav>li>a{
+    color: black;
+}
+
+.my-navbar.navbar-default {
+    background-color: white;
+
+    border: none;
+}
+
+#my-header-btn {
+    background-color: white;
+    color: teal;
+
+    border-color: teal;
+    padding: 5px;
+    margin-top: 10px;
+
+    box-shadow: none;
+}
+
+
+
+
+
+
+
+
+
+/* UTILITY CLASS  */
+.bg-white {
+    background-color: white;
+}
+
+.bg-grey {
+    background-color: lightgrey;
+}
+
