@@ -41,10 +41,16 @@ header .my-img-responsive {
 }
 
 
+
+
+
 /* MAIN  */
 section {
     padding: 40px 0;
 }
+
+
+
 /* 1* jumbotron  */
 .my-jumbotron {
     background-image: url("img/bg-banner-home.jpg");
@@ -64,16 +70,25 @@ section {
     background-color: rgb(103, 152, 248);
 }
 
+#terms-of-service-text {
+    font-size: 13px;
+
+    margin-bottom: 0;
+    padding-bottom: 15px;
+}
+
+#my-google-logo-signup {
+    max-height: 17px;
+    position: relative;
+    transform: translateY(20%); 
+}
+
+
 /* my-innovative-brands  */
 .my-innovative-brands img{
     height: 150px;
-
-
 }
 
-.my-innovative-brands .img-responsive {
-
-}
 
 
 
