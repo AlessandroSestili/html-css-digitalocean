@@ -107,8 +107,6 @@ section {
 }
 
 
-
-
 /* developers section  */
 .developers-section > .container > p {
     margin-bottom: 90px;
@@ -135,6 +133,16 @@ section {
 
 .developers-section span.glyphicon-chevron-left {
     color: grey;
+}
+
+
+/* features section  */
+.feature-section > .container > h3 {
+    margin-bottom: 30px;
+}
+
+.feature-section .row div{
+    margin-top: 20px;
 }
 
 
