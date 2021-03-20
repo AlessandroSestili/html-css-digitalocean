@@ -109,6 +109,37 @@ section {
 
 
 
+/* developers section  */
+.developers-section > .container > p {
+    margin-bottom: 90px;
+}
+
+.my-developers-circles div {
+    width: 10px;
+    height: 10px;
+
+    border: 2px solid rgb(45, 104, 246);
+    border-radius: 50%;
+    margin-top: 60px;
+
+    display: inline-block;
+}
+
+#first-circle {
+    background-color: rgb(45, 104, 246);
+}
+
+.developers-section span.glyphicon {
+    display: none;
+}
+
+.developers-section span.glyphicon-chevron-left {
+    color: grey;
+}
+
+
+
+
 
 
 
@@ -143,6 +174,18 @@ section {
     .deploy-section img {
         max-width: 30px;
     }
+
+
+    /* developers section  */
+    .developers-section span.glyphicon {
+        font-size: 30px;
+
+        left: 50%;
+        top: 150px;
+        transform: translateX(-50%);
+
+        display: inline-block;
+    }
 }
 
 
@@ -168,6 +211,18 @@ section {
     .deploy-section p {
         font-size: smaller;
     }
+
+
+    /* developers section  */
+    .developers-section span.glyphicon {
+        font-size: 30px;
+
+        left: 50%;
+        top: 170px;
+        transform: translateX(-50%);
+
+        display: inline-block;
+    }
 }
 
 
@@ -183,6 +238,17 @@ section {
 
     .my-jumbotron h1 {
         font-size: 60px;
+    }
+
+    /* developers section  */
+    .developers-section span.glyphicon {
+        font-size: 30px;
+
+        left: 50%;
+        top: 220px;
+        transform: translateX(-50%);
+
+        display: inline-block;
     }
 }
 
