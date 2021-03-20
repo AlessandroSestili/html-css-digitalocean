@@ -91,6 +91,22 @@ section {
 
 
 
+/* deploy section  */
+.deploy-section > .container > div {
+    margin-top: 40px;
+}
+
+.my-list-group .list-group-item {
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+}
+
+.my-list-group a {
+    color: grey;
+}
+
+
 
 
 
@@ -122,6 +138,11 @@ section {
     .my-form {
         margin: 0;
     }
+
+    /* deploy section  */
+    .deploy-section img {
+        max-width: 30px;
+    }
 }
 
 
@@ -137,6 +158,15 @@ section {
 
     .my-form {
         margin: 0;
+    }
+
+    /* .deploy-section  */
+    .deploy-section img {
+        max-width: 30px;
+    }
+
+    .deploy-section p {
+        font-size: smaller;
     }
 }
 
