@@ -147,6 +147,25 @@ section {
 
 
 
+/* table section  */
+.table-section a {
+    font-size: smaller;
+
+    color: rgb(88, 193, 206);
+}
+
+.table-section .table-responsive {
+    border: none;
+}
+
+.table-section .table > tbody > tr:first-child > td {
+    border: none;
+}
+
+
+
+
+
 
 
 
@@ -284,7 +303,7 @@ section {
 }
 
 .bg-blue {
-    background-color: rgb(103, 152, 248);
+    background-color: rgb(27, 68, 188);
 }
 
 .text-black {
