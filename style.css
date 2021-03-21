@@ -164,6 +164,17 @@ section {
 
 
 
+/* rockerbox-section (secondo carosello)  */
+
+
+
+/* get-started-now-section  */
+.get-started-now-section a {
+    color: rgb(27, 68, 188);
+
+    margin-top: 20px;
+}
+
 
 
 
