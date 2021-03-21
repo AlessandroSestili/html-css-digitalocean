@@ -1,0 +1,30 @@
+/* UTILITY CLASS  */
+.bg-white {
+    background-color: white;
+}
+
+.bg-grey {
+    background-color: rgb(243, 245, 249);
+}
+
+
+.text-white {
+    color: white;
+}
+
+.bg-blue {
+    background-color: rgb(27, 68, 188);
+}
+
+.text-black {
+    color: black;
+}
+
+.text-blue {
+    color: rgb(103, 152, 248);
+}
+
+
+.border-radius {
+    border-radius: 5px;
+}
