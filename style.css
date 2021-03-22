@@ -162,7 +162,6 @@ footer a {
     left: 30px;
 
 }
-
 .shark-img-container {
     width: 60px;
     height: 60px;
@@ -171,7 +170,6 @@ footer a {
 
     padding: 5px 0;
 }
-
 .shark-badge {
     width: 30px;
     height: 30px;
@@ -182,11 +180,21 @@ footer a {
 
     border: 4px solid white;
 }
-
 .shark-msg {
-    height: 54px;
+    height: 60px;
 
     padding: 5px 5px;
+}
+.arrow-right {
+    width: 0; 
+    height: 0; 
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-left: 8px solid white;
+
+    position: relative;
+    left: 262px;
+    bottom: 13px;
 }
 
 
