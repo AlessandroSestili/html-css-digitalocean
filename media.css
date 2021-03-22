@@ -100,6 +100,23 @@
 
         display: inline-block;
     }
+
+    /* FOOTER  */
+
+    /* pulsante fixed  */
+    .my-help-message {
+        right: 30px;
+    }
+
+    .shark-msg , .shark-img-container {
+        float: right;
+    }
+
+    .shark-msg {
+        margin-top: 0;
+
+        margin-right: 20px;
+    }
 }
 
 
@@ -137,6 +154,23 @@
         transform: translateX(-50%);
 
         display: inline-block;
+    }
+
+    /* FOOTER  */
+
+    /* pulsante fixed  */
+    .my-help-message {
+        right: 30px;
+    }
+
+    .shark-msg , .shark-img-container {
+        float: right;
+    }
+
+    .shark-msg {
+        margin-top: 0;
+
+        margin-right: 20px;
     }
 }
 
