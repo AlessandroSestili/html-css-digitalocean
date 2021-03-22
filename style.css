@@ -91,6 +91,9 @@ section {
 }
 
 /* table section  */
+.table-section {
+    background-image: linear-gradient(to bottom, #1940b4, #1538ac, #1130a5, #0d289d, #091f95);
+}
 .table-section a {
     font-size: smaller;
 
@@ -120,6 +123,9 @@ section {
 }
 
 /* get-started-now-section  */
+.get-started-now-section {
+    background-image: linear-gradient(to bottom, #1940b4, #1538ac, #1130a5, #0d289d, #091f95);
+}
 
 
 /* FOOTER  */
@@ -148,6 +154,44 @@ footer ul>li>strong>a{
 footer a {
     color: lightgrey;
 }
+
+/* pulsante fixed  */
+.shark-container {
+    width: 60px;
+    height: 60px;
+
+    background-color: rgb(45, 104, 246);
+
+    border-radius: 5px;
+
+    position: fixed;
+}
+.shark-container img {
+    max-height: 100%;
+
+    padding-top: 5px;
+}
+.shark-badge {
+    width: 30px;
+    line-height: 20px;
+
+
+    border: 4px solid white;
+
+    border-radius: 50%;
+
+    background-color: red;
+
+    position: relative;
+    top: -90%;
+    left: 70%;
+}
+
+.shark-message , .shark-container{
+    display: inline-block;
+}
+
+
 
 
 
