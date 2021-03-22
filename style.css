@@ -165,6 +165,10 @@ footer a {
     border-radius: 5px;
 
     position: fixed;
+    bottom: 200px;
+    left: 50px;
+
+    display: inline-block;
 }
 .shark-container img {
     max-height: 100%;
@@ -186,8 +190,7 @@ footer a {
     top: -90%;
     left: 70%;
 }
-
-.shark-message , .shark-container{
+.shark-message {
     display: inline-block;
 }
 
