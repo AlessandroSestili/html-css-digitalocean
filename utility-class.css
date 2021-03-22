@@ -1,4 +1,4 @@
-/* UTILITY CLASS  */
+/* BACKGROUND-COLOUR  */
 .bg-white {
     background-color: white;
 }
@@ -7,24 +7,48 @@
     background-color: rgb(243, 245, 249);
 }
 
-
-.text-white {
-    color: white;
+.bg-sky {
+    background-color: rgb(103, 152, 248);
 }
 
 .bg-blue {
     background-color: rgb(27, 68, 188);
 }
 
+
+/* TEXT-COLOUR  */
+.text-white {
+    color: white;
+}
+
 .text-black {
     color: black;
 }
 
-.text-blue {
+.text-grey {
+    color: rgb(243, 245, 249);
+}
+
+.text-dark-grey {
+    color: grey;
+}
+
+.text-sky {
     color: rgb(103, 152, 248);
 }
 
+.text-blue {
+    color: rgb(27, 68, 188);
+}
 
+
+/* BORDER-RADIUS  */
 .border-radius {
     border-radius: 5px;
+}
+
+
+/* DISPLAY  */
+.display-none {
+    display: none;
 }

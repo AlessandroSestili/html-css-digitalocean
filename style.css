@@ -2,25 +2,15 @@
 header .my-img-responsive {
     max-height: 100%;
 }
-
 .my-navbar.navbar {
     margin-bottom: 0;
 }
-
 .my-navbar.navbar-default .navbar-nav>li>a{
     color: black;
 }
-
-.my-navbar.navbar-default {
-    background-color: white;
-
-    border: none;
-}
-
 .left-nav {
     margin-left: 100px;
 }
-
 #my-header-btn {
     background-color: white;
     color: rgb(103, 152, 248);
@@ -31,17 +21,12 @@ header .my-img-responsive {
 
     box-shadow: none;
 }
-
 .my-navbar.navbar-default .navbar-toggle {
     border: none;
 }
-
 .my-navbar.navbar-default .navbar-toggle span {
     background-color: rgb(103, 152, 248);
 }
-
-
-
 
 
 /* MAIN  */
@@ -49,69 +34,52 @@ section {
     padding: 40px 0;
 }
 
-
-
 /* 1* jumbotron  */
 .my-jumbotron {
     background-image: url("img/bg-banner-home.jpg");
-
+}
+.my-jumbotron , #terms-of-service-text {
     margin-bottom: 0;
 }
-
 .my-form {
     margin: 0px 20px;
 }
-
 .my-form h2 {
     padding: 30px 30px;
 }
-
-.my-form .btn-primary {
-    background-color: rgb(103, 152, 248);
-}
-
 #terms-of-service-text {
     font-size: 13px;
 
-    margin-bottom: 0;
     padding-bottom: 15px;
 }
-
 #my-google-logo-signup {
     max-height: 17px;
     position: relative;
     transform: translateY(20%); 
 }
 
-
 /* my-innovative-brands  */
 .my-innovative-brands img{
     height: 150px;
 }
 
-
-
 /* deploy section  */
 .deploy-section > .container > div {
     margin-top: 40px;
 }
-
 .my-list-group .list-group-item {
     border-right: none;
     border-top: none;
     border-bottom: none;
 }
-
 .my-list-group a {
     color: grey;
 }
-
 
 /* developers section  */
 .developers-section > .container > p {
     margin-bottom: 90px;
 }
-
 .my-developers-circles div {
     width: 10px;
     height: 10px;
@@ -122,30 +90,17 @@ section {
 
     display: inline-block;
 }
-
 #first-circle {
     background-color: rgb(45, 104, 246);
 }
-
-.developers-section span.glyphicon {
-    display: none;
-}
-
-.developers-section span.glyphicon-chevron-left {
-    color: grey;
-}
-
 
 /* features section  */
 .feature-section > .container > h3 {
     margin-bottom: 30px;
 }
-
 .feature-section .row div{
     margin-top: 20px;
 }
-
-
 
 /* table section  */
 .table-section a {
@@ -153,43 +108,23 @@ section {
 
     color: rgb(88, 193, 206);
 }
-
-.table-section .table-responsive {
+.table-section .table-responsive , .table-section .table > tbody > tr:first-child > td {
     border: none;
 }
-
-.table-section .table > tbody > tr:first-child > td {
-    border: none;
-}
-
-
 
 /* rockerbox-section (secondo carosello)  */
-.rockerbox-section span.glyphicon {
-    display: none;
-}
-
-.rockerbox-section span.glyphicon-chevron-left {
-    color: grey;
-}
-
 .rockerbox-section h3 {
     margin-bottom: 50px;
 }
-
 .my-2-carousel {
-
     padding: 40px 0;
 }
-
 .my-2-carousel > *{
     padding: 5px 0;
 }
-
 .my-2-carousel img {
     margin-bottom: 10px;
 }
-
 #my-glyphicon-a {
     top: 0;
     left: 5px;
@@ -199,12 +134,8 @@ section {
     display: inline-block;
 }
 
-
-
 /* get-started-now-section  */
 .get-started-now-section a {
-    color: rgb(27, 68, 188);
-
     margin-top: 20px;
 }
 
@@ -215,32 +146,26 @@ footer {
 
     padding: 40px 0;
 }
-
 footer img {
     padding-bottom: 10px;
 }
-
 footer .fa {
     font-size: x-large;
 
     padding:5px;
 }
-
 footer ul {
     list-style: none;
 
     padding-left: 0;
     padding-top: 5px;
 }
-
 footer li {
     padding: 3px 0;
 }
-
 footer ul>li>strong>a{
     color: white;
 }
-
 footer a {
     color: lightgrey;
 }
