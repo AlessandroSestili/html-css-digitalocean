@@ -2,14 +2,8 @@
 header .my-img-responsive {
     max-height: 100%;
 }
-.my-navbar.navbar {
-    margin-bottom: 0;
-}
 .my-navbar.navbar-default .navbar-nav>li>a{
     color: black;
-}
-.left-nav {
-    margin-left: 100px;
 }
 #my-header-btn {
     background-color: white;
@@ -38,7 +32,7 @@ section {
 .my-jumbotron {
     background-image: url("img/bg-banner-home.jpg");
 }
-.my-jumbotron , #terms-of-service-text {
+#terms-of-service-text {
     margin-bottom: 0;
 }
 .my-form {
@@ -77,9 +71,6 @@ section {
 }
 
 /* developers section  */
-.developers-section > .container > p {
-    margin-bottom: 90px;
-}
 .my-developers-circles div {
     width: 10px;
     height: 10px;
@@ -95,9 +86,6 @@ section {
 }
 
 /* features section  */
-.feature-section > .container > h3 {
-    margin-bottom: 30px;
-}
 .feature-section .row div{
     margin-top: 20px;
 }
@@ -122,9 +110,6 @@ section {
 .my-2-carousel > *{
     padding: 5px 0;
 }
-.my-2-carousel img {
-    margin-bottom: 10px;
-}
 #my-glyphicon-a {
     top: 0;
     left: 5px;
@@ -135,9 +120,6 @@ section {
 }
 
 /* get-started-now-section  */
-.get-started-now-section a {
-    margin-top: 20px;
-}
 
 
 /* FOOTER  */
@@ -145,9 +127,6 @@ footer {
     background-color: rgb(10, 28, 75);
 
     padding: 40px 0;
-}
-footer img {
-    padding-bottom: 10px;
 }
 footer .fa {
     font-size: x-large;
